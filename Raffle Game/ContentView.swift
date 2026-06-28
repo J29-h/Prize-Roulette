@@ -6,54 +6,38 @@
 //
 
 import SwiftUI
-import SwiftData
+import Combine
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @StateObject private var vm = DrawViewModel()
 
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-            .navigationSplitViewColumnWidth(min: 180, ideal: 200)
-            .toolbar {
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
+        ZStack {
+            BrandGradientBackground()
+
+            Group {
+                switch vm.drawState {
+                case .start:
+                    StartScreen(vm: vm)
+                case .showcase:
+                    GiftsShowcaseScreen(vm: vm)
+                case .countdown:
+                    DrawScreen(vm: vm)
+                case .drawing, .result, .summary:
+                    DrawScreen(vm: vm)
                 }
             }
-        } detail: {
-            Text("Select an item")
+            .environment(\.layoutDirection, .rightToLeft)
+            .preferredColorScheme(.dark)
         }
-    }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
+        .onAppear {
+            vm.resetAll()
         }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
-            }
-        }
+        // Global default font for the app UI
+        .environment(\.font, .custom("Elm-Regular", size: 22))
     }
 }
 
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
 }
