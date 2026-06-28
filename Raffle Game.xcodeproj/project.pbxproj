@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5DAC1BCF2FF19D6C00F9AA03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAC1BB72FF19D6B00F9AA03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAC1BBE2FF19D6B00F9AA03;
+			remoteInfo = "Raffle Game";
+		};
+		5DAC1BD92FF19D6C00F9AA03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAC1BB72FF19D6B00F9AA03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAC1BBE2FF19D6B00F9AA03;
+			remoteInfo = "Raffle Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DAC1BBF2FF19D6B00F9AA03 /* Raffle Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raffle Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAC1BCE2FF19D6C00F9AA03 /* Raffle GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raffle GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAC1BD82FF19D6C00F9AA03 /* Raffle GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raffle GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5DAC1BC12FF19D6B00F9AA03 /* Raffle Game */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Raffle Game";
+			sourceTree = "<group>";
+		};
+		5DAC1BD12FF19D6C00F9AA03 /* Raffle GameTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Raffle GameTests";
+			sourceTree = "<group>";
+		};
+		5DAC1BDB2FF19D6C00F9AA03 /* Raffle GameUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Raffle GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DAC1BBC2FF19D6B00F9AA03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAC1BCB2FF19D6C00F9AA03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAC1BD52FF19D6C00F9AA03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DAC1BB62FF19D6B00F9AA03 = {
+			isa = PBXGroup;
+			children = (
+				5DAC1BC12FF19D6B00F9AA03 /* Raffle Game */,
+				5DAC1BD12FF19D6C00F9AA03 /* Raffle GameTests */,
+				5DAC1BDB2FF19D6C00F9AA03 /* Raffle GameUITests */,
+				5DAC1BC02FF19D6B00F9AA03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DAC1BC02FF19D6B00F9AA03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DAC1BBF2FF19D6B00F9AA03 /* Raffle Game.app */,
+				5DAC1BCE2FF19D6C00F9AA03 /* Raffle GameTests.xctest */,
+				5DAC1BD82FF19D6C00F9AA03 /* Raffle GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DAC1BBE2FF19D6B00F9AA03 /* Raffle Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAC1BE22FF19D6C00F9AA03 /* Build configuration list for PBXNativeTarget "Raffle Game" */;
+			buildPhases = (
+				5DAC1BBB2FF19D6B00F9AA03 /* Sources */,
+				5DAC1BBC2FF19D6B00F9AA03 /* Frameworks */,
+				5DAC1BBD2FF19D6B00F9AA03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5DAC1BC12FF19D6B00F9AA03 /* Raffle Game */,
+			);
+			name = "Raffle Game";
+			packageProductDependencies = (
+			);
+			productName = "Raffle Game";
+			productReference = 5DAC1BBF2FF19D6B00F9AA03 /* Raffle Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DAC1BCD2FF19D6C00F9AA03 /* Raffle GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAC1BE52FF19D6C00F9AA03 /* Build configuration list for PBXNativeTarget "Raffle GameTests" */;
+			buildPhases = (
+				5DAC1BCA2FF19D6C00F9AA03 /* Sources */,
+				5DAC1BCB2FF19D6C00F9AA03 /* Frameworks */,
+				5DAC1BCC2FF19D6C00F9AA03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DAC1BD02FF19D6C00F9AA03 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5DAC1BD12FF19D6C00F9AA03 /* Raffle GameTests */,
+			);
+			name = "Raffle GameTests";
+			packageProductDependencies = (
+			);
+			productName = "Raffle GameTests";
+			productReference = 5DAC1BCE2FF19D6C00F9AA03 /* Raffle GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DAC1BD72FF19D6C00F9AA03 /* Raffle GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAC1BE82FF19D6C00F9AA03 /* Build configuration list for PBXNativeTarget "Raffle GameUITests" */;
+			buildPhases = (
+				5DAC1BD42FF19D6C00F9AA03 /* Sources */,
+				5DAC1BD52FF19D6C00F9AA03 /* Frameworks */,
+				5DAC1BD62FF19D6C00F9AA03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DAC1BDA2FF19D6C00F9AA03 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5DAC1BDB2FF19D6C00F9AA03 /* Raffle GameUITests */,
+			);
+			name = "Raffle GameUITests";
+			packageProductDependencies = (
+			);
+			productName = "Raffle GameUITests";
+			productReference = 5DAC1BD82FF19D6C00F9AA03 /* Raffle GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DAC1BB72FF19D6B00F9AA03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					5DAC1BBE2FF19D6B00F9AA03 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+					5DAC1BCD2FF19D6C00F9AA03 = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = 5DAC1BBE2FF19D6B00F9AA03;
+					};
+					5DAC1BD72FF19D6C00F9AA03 = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = 5DAC1BBE2FF19D6B00F9AA03;
+					};
+				};
+			};
+			buildConfigurationList = 5DAC1BBA2FF19D6B00F9AA03 /* Build configuration list for PBXProject "Raffle Game" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DAC1BB62FF19D6B00F9AA03;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5DAC1BC02FF19D6B00F9AA03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DAC1BBE2FF19D6B00F9AA03 /* Raffle Game */,
+				5DAC1BCD2FF19D6C00F9AA03 /* Raffle GameTests */,
+				5DAC1BD72FF19D6C00F9AA03 /* Raffle GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DAC1BBD2FF19D6B00F9AA03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAC1BCC2FF19D6C00F9AA03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAC1BD62FF19D6C00F9AA03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DAC1BBB2FF19D6B00F9AA03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAC1BCA2FF19D6C00F9AA03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAC1BD42FF19D6C00F9AA03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DAC1BD02FF19D6C00F9AA03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAC1BBE2FF19D6B00F9AA03 /* Raffle Game */;
+			targetProxy = 5DAC1BCF2FF19D6C00F9AA03 /* PBXContainerItemProxy */;
+		};
+		5DAC1BDA2FF19D6C00F9AA03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAC1BBE2FF19D6B00F9AA03 /* Raffle Game */;
+			targetProxy = 5DAC1BD92FF19D6C00F9AA03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DAC1BE02FF19D6C00F9AA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V5ZB3Z75WD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DAC1BE12FF19D6C00F9AA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = V5ZB3Z75WD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5DAC1BE32FF19D6C00F9AA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5ZB3Z75WD;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jana.Raffle-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5DAC1BE42FF19D6C00F9AA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5ZB3Z75WD;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jana.Raffle-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5DAC1BE62FF19D6C00F9AA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5ZB3Z75WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jana.Raffle-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raffle Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Raffle Game";
+			};
+			name = Debug;
+		};
+		5DAC1BE72FF19D6C00F9AA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5ZB3Z75WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jana.Raffle-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raffle Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Raffle Game";
+			};
+			name = Release;
+		};
+		5DAC1BE92FF19D6C00F9AA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5ZB3Z75WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jana.Raffle-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Raffle Game";
+			};
+			name = Debug;
+		};
+		5DAC1BEA2FF19D6C00F9AA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5ZB3Z75WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jana.Raffle-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Raffle Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DAC1BBA2FF19D6B00F9AA03 /* Build configuration list for PBXProject "Raffle Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAC1BE02FF19D6C00F9AA03 /* Debug */,
+				5DAC1BE12FF19D6C00F9AA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAC1BE22FF19D6C00F9AA03 /* Build configuration list for PBXNativeTarget "Raffle Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAC1BE32FF19D6C00F9AA03 /* Debug */,
+				5DAC1BE42FF19D6C00F9AA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAC1BE52FF19D6C00F9AA03 /* Build configuration list for PBXNativeTarget "Raffle GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAC1BE62FF19D6C00F9AA03 /* Debug */,
+				5DAC1BE72FF19D6C00F9AA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAC1BE82FF19D6C00F9AA03 /* Build configuration list for PBXNativeTarget "Raffle GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAC1BE92FF19D6C00F9AA03 /* Debug */,
+				5DAC1BEA2FF19D6C00F9AA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DAC1BB72FF19D6B00F9AA03 /* Project object */;
+}
